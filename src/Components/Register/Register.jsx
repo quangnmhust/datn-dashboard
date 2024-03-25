@@ -3,7 +3,7 @@ import './Register.css'
 import '../../App.css'
 
 //
-import video from '../../LoginAssets/tree.mp4'
+import video from '../../LoginAssets/blossoms.mp4'
 import picture from '../../LoginAssets/Lovepik.png'
 
 //import icon
