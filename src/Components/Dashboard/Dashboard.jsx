@@ -2,9 +2,10 @@ import React from 'react'
 
 const Dashboard = () => {
   return (
-    <div>
-        <a href="/login">To Logout</a>
-        Dashboard
+    <div className='dashboard flex'>
+      <div className='dashboardContainer flex'>
+        
+      </div>
     </div>
     )
 }
