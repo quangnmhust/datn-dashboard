@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
 *{
     padding: 0;
@@ -295,3 +296,164 @@ img, video{
       }
     }
   }
+
+
+.dashboard{
+    height: 100vh;
+    width: 100%;
+    justify-content: center;
+    margin: auto;
+
+    .dashboardContainer{
+        height: 95vh;
+        width: 95%;
+        border-radius: 10px;
+        overflow: hidden;
+        box-shadow: 0 5px 10px rgb(194, 194, 194);
+    }
+}
+
+@media screen and (max-width: 500px){
+    .heading{
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 1rem;
+    }
+}
+@media screen and (max-width: 918px){
+    .heading{
+        flex-direction: row;
+        align-items: center;
+        gap: 1rem;
+    }
+}
+@media screen and (max-width: 990px){
+    .heading{
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 1rem;
+    }
+}
+
+@media screen and (max-width: 602px){
+    .loginPage, .registerPage{
+        .container{
+            height: 100%;
+            width: 100%;
+            flex-direction: column;
+            padding: 1.5rem;
+
+            .videoDiv{
+                width: 100%;
+
+                .textDiv{
+                    .title{
+                        font-size: 20px;
+                    }
+
+                    P{
+                        padding: 1rem;
+                    }
+                }
+
+                .footerDiv{
+                    // gap: 1rem;
+                    // transform: translateY(-0.5rem);
+                    .text{
+                        font-size: 12px;
+                    }
+                    .btn{
+                        padding: 0.4rem 1.5rem;
+                    }
+                }
+            }
+
+            .formDiv{
+                gap: 1rem;
+                transform: translateY(-0.5rem);
+
+                .headerDiv{
+                    padding: 1rem 0;
+
+                    img{
+                        width: 40px;
+                    }
+
+                    h3{
+                        font-size: 20px;
+                    }
+                }
+
+                .form{
+                    gap: 0.5rem;
+
+                    .inputDiv{
+                        input{
+                            width: 100%;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 678px){
+    .loginPage, .registerPage{
+        .container{
+            .videoDiv{
+                .textDiv{
+                    .title{
+                        font-size: 25px;
+                    }
+
+                    P{
+                        padding: 1rem;
+                    }
+                }
+
+                .footerDiv{
+                    // gap: 1rem;
+                    // transform: translateY(-0.5rem);
+                    .text{
+                        font-size: 12px;
+                    }
+                    .btn{
+                        padding: 0.8rem 1.5rem;
+                    }
+                }
+            }
+
+            .formDiv{
+                .headerDiv{
+                    padding: 1.5rem 0;
+
+                    h3{
+                        font-size: 20px;
+                    }
+                }
+
+                .form{
+                    .inputDiv{
+                        input{
+                            width: 100%;
+                            max-width: 200px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 927px){
+    .loginPage, .registerPage{
+        .container{
+            width: 85%;
+        }
+    }
+}
+
+::-webkit-scrollbar{
+    display: none;
+}

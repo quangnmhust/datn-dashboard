@@ -60,6 +60,8 @@ const Login = () => {
                         <span>Login</span>
                         <CiLogin className='icon'/>
                     </button>
+                    
+                    <a href='/dashboard'>Dash board</a>
 
                     <span className='forgotPassword'> 
                         Forgot your password?   
