@@ -4,7 +4,7 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  font-family: "Montserrat", sans-serif;
+  font-family: "Poppins", "Montserrat", sans-serif;
 }
 
 :root {
@@ -373,4 +373,103 @@ img, video {
 }
 ::-webkit-scrollbar {
   display: none;
+}
+
+.sider {
+  height: 100vh;
+  position: sticky !important;
+  left: 0;
+  bottom: 0;
+  top: 0;
+}
+
+.logo {
+  width: 50% !important;
+  margin: 30px 0;
+  font-size: 1rem;
+}
+
+.headerDash {
+  padding-top: 10px;
+  background: var(--whiteColor);
+}
+
+.contentDash {
+  margin: 24px 16px;
+  padding: 20px;
+}
+
+.triger-btn {
+  font-size: 20px;
+  width: 50px;
+  height: 50px;
+  position: fixed;
+  bottom: 10px;
+  left: 10px;
+}
+
+.menu-bar {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  font-weight: 500;
+}
+
+.headerIcon {
+  background: var(--whiteColor);
+  padding: 8px;
+  border-radius: 4px;
+  font-size: 15px;
+  color: var(--primaryColor);
+  cursor: pointer;
+}
+
+.ant-menu-item-selected {
+  background-color: var(--primaryColor) !important;
+  color: var(--whiteColor) !important;
+}
+
+.ant-btn:hover {
+  color: #4f6f52 !important;
+  border-color: #4f6f52 !important;
+}
+
+.ant-btn-primary {
+  background-color: #4f6f52;
+}
+
+.ant-btn-primary:hover {
+  background-color: #173a1a !important;
+  color: #fff;
+}
+
+.primary--color {
+  color: #4f6f52 !important;
+}
+
+.primary--light--color {
+  color: #739072 !important;
+}
+
+.secondary--color {
+  color: #86a789 !important;
+}
+
+.light--color {
+  color: #d2e3c8 !important;
+}
+
+.gray--color {
+  color: rgb(182, 181, 181) !important;
+}
+
+.leaflet-container {
+  height: 40vh !important;
+  width: 100%;
+}
+
+.plant-cards {
+  flex: 1 !important;
+  height: 250px !important;
+  text-align: center !important;
 }/*# sourceMappingURL=App.css.map */
