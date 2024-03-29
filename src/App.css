@@ -179,12 +179,11 @@ img, video {
   flex-basis: 50%;
   margin: auto;
   flex-direction: column;
-  gap: 4rem;
   transform: translateY(-1rem);
 }
 .loginPage .container .formDiv .headerDiv, .registerPage .container .formDiv .headerDiv {
   text-align: center;
-  padding: 1.5rem 0;
+  padding: 0.5rem 0;
 }
 .loginPage .container .formDiv .headerDiv img, .registerPage .container .formDiv .headerDiv img {
   pointer-events: none;
